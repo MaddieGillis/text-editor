@@ -13,6 +13,7 @@ const initdb = async () =>
   });
 
 
+
 //PUT
 export const putDb = async (content) => {
   const jateDb = await openDB('jate', 1);
